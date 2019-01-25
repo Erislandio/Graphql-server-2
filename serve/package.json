@@ -2,9 +2,9 @@
   "name": "serve",
   "version": "1.0.0",
   "description": "Server feito em graphql e express",
-  "main": "serve.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon serve.js"
+    "dev": "nodemon server.js"
   },
   "author": "Erislandio soares",
   "license": "ISC",
