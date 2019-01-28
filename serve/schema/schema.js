@@ -7,6 +7,15 @@ const {
     GraphQLSchema
 } = graphql
 
+const CompanyType = new GraphQLObjectType({
+    name: "Company",
+    fields: {
+        id: { type: GraphQLString },
+        name: { type: GraphQLString },
+        description: { type: GraphQLObjectType }
+    }
+})
+
 const UserType = new GraphQLObjectType({
     name: 'User',
     fields: {
