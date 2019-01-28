@@ -9,10 +9,14 @@ const {
 
 const users = [
     {
-        id: '23', fisrtName: "Erislandio", age: 23
+        id: '23',
+        fisrtName: "Erislandio",
+        age: 23
     },
     {
-        id: '47', fisrtName: "jéssica", age: 18
+        id: '47',
+        fisrtName: "jéssica",
+        age: 18
     }
 ]
 
